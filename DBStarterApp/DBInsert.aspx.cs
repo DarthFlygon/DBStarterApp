@@ -40,7 +40,7 @@ namespace DBStarterApp
         {
             //First we define a string variable with our required insert query
             /*Try out the query in SSMS first then build your own query from there. 
-            For eg my query is insert into Userdata values('Ajith','ajith@gmail.com','999999999',3)
+            For eg my query is: insert into Userdata values('Ajith','ajith@gmail.com','999999999',3)
             Put everything within double qoutes first.
             Then replace each value like Ajith with IDofTextbox.Text*/
             string s = "insert into Userdata values('" + TextBox1.Text + "' ,' " + TextBox2.Text + "','" + TextBox3.Text + "'," + TextBox4.Text + ")";

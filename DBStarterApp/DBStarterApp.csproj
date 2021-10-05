@@ -70,6 +70,20 @@
     <Content Include="DBDisplay.aspx" />
     <Content Include="DBInsert.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="images\dbimg1.JPG" />
+    <Content Include="images\dbimg10.JPG" />
+    <Content Include="images\dbimg11.JPG" />
+    <Content Include="images\dbimg12.JPG" />
+    <Content Include="images\dbimg13.JPG" />
+    <Content Include="images\dbimg14.JPG" />
+    <Content Include="images\dbimg2.JPG" />
+    <Content Include="images\dbimg3.JPG" />
+    <Content Include="images\dbimg4.JPG" />
+    <Content Include="images\dbimg5.JPG" />
+    <Content Include="images\dbimg6.JPG" />
+    <Content Include="images\dbimg7.JPG" />
+    <Content Include="images\dbimg8.JPG" />
+    <Content Include="images\dbimg9.JPG" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
