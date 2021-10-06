@@ -67,12 +67,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DBDelete.aspx" />
     <Content Include="DBDisplay.aspx" />
     <Content Include="DBInsert.aspx" />
+    <Content Include="DBUpdate.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DBDelete.aspx.cs">
+      <DependentUpon>DBDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DBDelete.aspx.designer.cs">
+      <DependentUpon>DBDelete.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DBDisplay.aspx.cs">
       <DependentUpon>DBDisplay.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -86,6 +95,13 @@
     </Compile>
     <Compile Include="DBInsert.aspx.designer.cs">
       <DependentUpon>DBInsert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DBUpdate.aspx.cs">
+      <DependentUpon>DBUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DBUpdate.aspx.designer.cs">
+      <DependentUpon>DBUpdate.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

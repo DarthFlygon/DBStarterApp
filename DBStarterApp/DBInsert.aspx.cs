@@ -52,6 +52,7 @@ namespace DBStarterApp
             cmd.ExecuteNonQuery();
             //Closing connection
             con.Close();
+            Response.Redirect("DBInsert.aspx");
 
         }
     }

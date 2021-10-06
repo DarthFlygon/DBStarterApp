@@ -24,5 +24,11 @@
         <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label><br />
         <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label><br />
     </div>
+    <div>
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/DBInsert.aspx">Insert</asp:HyperLink>&nbsp&nbsp
+        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/DBUpdate.aspx">Update</asp:HyperLink>&nbsp&nbsp
+        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/DBDelete.aspx">Delete</asp:HyperLink>&nbsp&nbsp
+    </div>
+    
 </body>
 </html>

@@ -14,7 +14,10 @@
             Phone<asp:TextBox ID="TextBox3" runat="server"></asp:TextBox><br />
             ID<asp:TextBox ID="TextBox4" runat="server"></asp:TextBox><br />
        </div>
-        <asp:Button ID="Button1" runat="server" Text="Submit" OnClick="Button1_Click" /> 
+        <asp:Button ID="Button1" runat="server" Text="Submit" OnClick="Button1_Click" /><br />
+        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/DBDisplay.aspx">Display</asp:HyperLink>&nbsp&nbsp
+        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/DBUpdate.aspx">Update</asp:HyperLink>&nbsp&nbsp
+        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/DBDelete.aspx">Delete</asp:HyperLink>&nbsp&nbsp
     </form>
 </body>
 </html>
